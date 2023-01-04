@@ -1,0 +1,24 @@
+
+body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+}
+h1{
+     font-size: 50px;
+     margin-bottom: 10px;
+}
+p{
+     font-size: 20px;
+     color: coral;
+}
+hr{
+     width: 80%;
+}
+.gallery{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+}
+img{
+     display: block;
+     margin: 10px;
+}
